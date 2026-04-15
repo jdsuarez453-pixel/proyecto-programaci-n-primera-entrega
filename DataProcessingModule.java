@@ -131,18 +131,35 @@ public class DataProcessingModule {
                             continue;
                         }
                         
-                        int productoId = Integer.parseInt(parts[0].trim());
-                        int cantidad = Integer.parseInt(parts[1].trim());
-                        
-                        if (productos.containsKey(productoId)) {
-                            Producto producto = productos.get(productoId);
-                            double total = producto.getPrecio() * cantidad;
-                            
-                            Venta venta = new Venta(productoId, cantidad, total);
-                            vendedor.agregarVenta(venta);
-                        } else {
-                            System.out.println("  ⚠ Producto ID no encontrado: " + productoId);
-                        }
+                     if (parts[0].trim().isEmpty() || parts[1].trim().isEmpty()) {
+    System.out.println("  ✗ Línea con campos vacíos: " + line);
+    continue;
+}
+
+int productoId = Integer.parseInt(parts[0].trim());
+int cantidad = Integer.parseInt(parts[1].trim());
+
+if (cantidad <= 0) {
+    System.out.println("  ✗ Cantidad inválida: " + line);
+    continue;
+}
+
+if (!productos.containsKey(productoId)) {
+    System.out.println("  ⚠ Producto ID no encontrado: " + productoId);
+    continue;
+}
+
+Producto producto = productos.get(productoId);
+
+if (producto.getPrecio() <= 0) {
+    System.out.println("  ✗ Precio inválido para producto ID: " + productoId);
+    continue;
+}
+
+double total = producto.getPrecio() * cantidad;
+
+Venta venta = new Venta(productoId, cantidad, total);
+vendedor.agregarVenta(venta);   
                     } catch (NumberFormatException e) {
                         System.out.println("  ✗ Error al parsear venta: " + line);
                     }
