@@ -1,0 +1,25 @@
+1. Lo aprendido durante el desarrollo del proyecto
+
+Durante el desarrollo de este proyecto se fortalecieron conocimientos clave en programación, especialmente en el manejo de archivos en Java. Se aprendió a leer y escribir archivos en formato CSV, así como a procesar grandes cantidades de información de manera estructurada.
+
+También se adquirió experiencia en el uso de estructuras de datos como listas y mapas, lo que permitió organizar y relacionar información de productos, vendedores y ventas de forma eficiente. Adicionalmente, se comprendió la importancia de dividir el programa en partes claras, facilitando su mantenimiento y comprensión.
+
+Otro aprendizaje importante fue la implementación de lógica para generar reportes ordenados, lo que permitió transformar datos crudos en información útil para la toma de decisiones.
+
+2. Posibles aplicaciones en la vida profesional
+
+Los conocimientos adquiridos en este proyecto pueden aplicarse en diferentes contextos laborales, especialmente en áreas donde se requiere el manejo y análisis de datos. Por ejemplo, en procesos administrativos, contables o comerciales, donde es necesario consolidar información de ventas, inventarios o clientes.
+
+Asimismo, este tipo de desarrollo es útil para automatizar tareas repetitivas, como la generación de reportes, reduciendo errores humanos y optimizando tiempos. También puede aplicarse en la integración de sistemas que intercambian información mediante archivos planos, algo muy común en entornos empresariales.
+
+En general, estas habilidades permiten desarrollar soluciones que apoyan la toma de decisiones basadas en datos, lo cual es altamente valorado en el ámbito profesional.
+
+3. Dificultades presentadas durante el desarrollo del proyecto
+
+Durante el desarrollo del proyecto se presentaron varios retos. Uno de los principales fue comprender cómo integrar la información proveniente de diferentes archivos, ya que fue necesario relacionar correctamente productos, vendedores y ventas.
+
+También se presentaron dificultades en la lectura y validación de los datos, especialmente al manejar posibles errores como formatos incorrectos o información incompleta. Esto obligó a implementar controles básicos para evitar fallos en la ejecución del programa.
+
+Otra dificultad fue estructurar el código de manera ordenada, cumpliendo con los requisitos del proyecto, como el uso limitado de clases con método principal. Esto requirió una mejor planificación y organización de la lógica del programa.
+
+Finalmente, el proceso de depuración (identificación y corrección de errores) fue un reto constante, pero permitió mejorar la calidad y funcionamiento del sistema.
