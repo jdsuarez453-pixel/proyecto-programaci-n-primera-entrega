@@ -1,0 +1,26 @@
+CONCLUSION DEL PROYECTO - SISTEMA DE PROCESAMIENTO DE VENTAS
+=====================================================================
+
+1. LO APRENDIDO DURANTE EL DESARROLLO DEL PROYECTO
+-----------------------------------------------------
+Durante el desarrollo de este proyecto como equipo, aprendimos a trabajar con archivos planos como fuente de entrada y salida de información, lo cual nos permitió entender cómo se procesan datos en escenarios reales. También fortalecimos nuestros conocimientos en Java, especialmente en la lectura y escritura de archivos utilizando herramientas como BufferedReader y BufferedWriter.
+
+Además, comprendimos la importancia de organizar la información mediante estructuras de datos como Map y List, lo que facilitó el manejo eficiente de los datos de vendedores y productos. Otro aspecto importante fue aprender a ordenar información para generar reportes claros y útiles. Finalmente, entendimos que validar los datos de entrada es fundamental para evitar errores y garantizar que el programa funcione correctamente.
+
+
+2. POSIBLES APLICACIONES EN LA VIDA PROFESIONAL
+-------------------------------------------------
+Como equipo, consideramos que los conocimientos adquiridos en este proyecto tienen muchas aplicaciones en el ámbito profesional. Por ejemplo, este tipo de soluciones puede utilizarse en empresas que manejan grandes volúmenes de información, como ventas, inventarios o nómina, permitiendo automatizar procesos que normalmente se harían de forma manual.
+
+También vemos que este tipo de desarrollo puede aplicarse en la generación automática de reportes, facilitando la toma de decisiones dentro de una organización. De igual forma, estos conocimientos pueden ser útiles para integrar sistemas mediante archivos CSV o para desarrollar herramientas que analicen datos de manera eficiente.
+
+
+3. DIFICULTADES PRESENTADAS DURANTE EL DESARROLLO
+---------------------------------------------------
+Durante el desarrollo del proyecto, como equipo enfrentamos varias dificultades. Una de las principales fue manejar los diferentes formatos de los archivos de entrada, ya que fue necesario validar casos como líneas vacías, errores en los separadores o datos incorrectos.
+
+También tuvimos retos al momento de leer múltiples archivos desde una carpeta y asegurarnos de que todos fueran procesados correctamente sin importar su orden. Otra dificultad importante fue organizar la lógica del programa para generar los reportes de vendedores y productos utilizando la misma información procesada.
+
+Finalmente, fue un reto cumplir con los requisitos del proyecto, especialmente en cuanto a la estructura del programa, como el uso de únicamente dos clases con método main, lo que nos obligó a planificar mejor la organización del código.
+
+=====================================================================
